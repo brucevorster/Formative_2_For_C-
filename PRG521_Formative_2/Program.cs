@@ -404,6 +404,11 @@ class Program
                 Console.WriteLine("\nSorry an error occured make sure you entered the correct input!!!");
             }
         }
+        //Go Back
+        else if (select_animal == "Go Back" | select_animal == "5")
+        {
+            Main(null);
+        }
         //else for the error handeling
         else
         {
